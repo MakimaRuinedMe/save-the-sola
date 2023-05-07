@@ -1,0 +1,36 @@
+{
+    "name": "Save the Sola",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "sprite-scaling": "*",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "darts": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "edge-connector": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "pyprj"
+}
